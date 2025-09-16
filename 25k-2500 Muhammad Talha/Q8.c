@@ -49,6 +49,9 @@ int main() {
         case '^':
             result = pow(num1, num2);
             printf("Result: %.2lf\n", result);
+            break;
+		default:
+            printf("Invalid operator. Please use +, -, *, %, or ^.\n");
             break;    
     }
 
