@@ -5,7 +5,7 @@ int main(){
 	char extra;
 	
 	printf("input marks out of 100: ");
-	if (scanf("%f%c", &marks,&extra) !=2 || extra !='\n'|| marks<0){
+	if (scanf("%f%c", &marks,&extra) !=2 || extra !='\n'|| marks<0 || marks>100){
 		printf("invalid input");
 		return 1;
 	}
